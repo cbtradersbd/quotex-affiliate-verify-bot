@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 class AppConfig(BaseModel):
     broker_name: str = "Quotex"
-    api_url: str = "https://api1.api.cbtraderbd.xyz/docs"
+    api_url: str = "https://api1.api.cbtradersbd.com/docs"
     direct_contact: str = "https://t.me/YouKnowWho_am"
     telegram_channel: str = "https://t.me/+R_kEsY9yqkA1NDI1"
     demo_bot: str = "https://t.me/cbsignalsproai_bot?start=1"
